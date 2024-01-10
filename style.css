@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+}
+
+/* header banner styles */
+.banner {
+    background-image: url(./images/banner/banner3.png);
+    background-size: cover;
+
+}
+
+.banner-header {
+    margin: 0 300px;
+}
+
+.banner-title {
+    color: #fff;
+    text-align: right;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.banner-sub-title {
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.contact-btn {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #005FAC;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    margin: 30px 500px 220px;
+
+}
+
+/* about styles */
+.about {
+    width: 900px;
+    display: flex;
+    margin: 0 auto;
+
+
+}
+
+.black-women {
+    margin-top: 140px;
+
+
+}
+
+.failures {
+    margin-top: 420px;
+
+
+}
+
+.failures-title {
+    color: var(--Dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.failures-sub-title {
+    color: var(--Dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.failures-description {
+    color: var(--Dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* my plans styls */
