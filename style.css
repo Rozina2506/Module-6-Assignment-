@@ -100,4 +100,161 @@
     font-size: 40px;
     font-weight: 700;
     margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+/* skills */
+.skills {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+
+}
+
+.skills img {
+    width: 50.958px;
+    height: 50.958px;
+    margin-bottom: 24px;
+}
+
+.skill-title {
+    margin-bottom: 16px;
+    color: var(--Dark-01, #151414);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+
+}
+
+.skill-sub-title {
+    color: var(--Dark-03, #737272);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* watch style */
+.watch {
+    margin: 140px 200px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%);
+    background-image: url(./images/watch.png);
+    background-repeat: no-repeat;
+    width: 850px;
+
+}
+
+.watch-title {
+    width: 450px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    padding: 50px;
+}
+
+.call-btn {
+    border-radius: 5px;
+    background: #FFF;
+    width: 110px;
+    height: 50px;
+    border: 0;
+    margin: 20px 30px;
+    color: #005FAC;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* footer style */
+.background-black {
+    background-color: black;
+    height: 300px;
+    display: flex;
+    padding: 100px;
+    justify-content: space-around;
+}
+
+.black {}
+
+.black-title {
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.black-sub-title {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    width: 400px;
+    margin: 0 auto;
+
+}
+
+.email {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+
+}
+
+.phone {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+
+.img {
+    margin-bottom: 20px;
+
+}
+
+.subcribe {}
+
+.subcribe-title {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.forms {
+    margin-bottom: 30px;
+
+}
+
+/* btn */
+.subcribe-btn {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #005FAC;
+    width: 100px;
+    height: 25px;
+    padding: 10px;
+    text-align: center;
 }
